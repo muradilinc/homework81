@@ -1,6 +1,6 @@
 const config = {
   mongoose: {
-    db: 'mongodb://localhost/shop',
+    db: 'mongodb://localhost/links',
   },
 };
 
