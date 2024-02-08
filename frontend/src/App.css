@@ -39,6 +39,7 @@
   --color: #373B44;
 
   padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  margin-top: 10px;
   color: var(--color);
   --_p: var(--s);
   background: conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2 * var(--_p)) calc(100% - var(--b) - 2 * var(--_p));
@@ -64,4 +65,15 @@
 .button:active {
   background: var(--color);
   color: #fff;
+}
+
+.text{
+  margin: 15px 0;
+  text-align: center;
+}
+.text p {
+  font-size: 20px;
+}
+.text a {
+  font-size: 18px;
 }
